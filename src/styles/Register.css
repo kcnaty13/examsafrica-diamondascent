@@ -1,0 +1,265 @@
+.register-home{
+    width: 100%;
+    min-height: 100vh;
+     
+}
+ 
+
+.rigister-main{
+    width: 100%;
+    height: 700px;
+}
+
+.login-head-c{
+display: flex;
+justify-content: space-be;
+width: 100%;
+
+}
+
+.login-head{
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+    
+}
+
+.login-head p{
+    font-size: 20px;
+}
+
+.login-link{
+    color: blue;
+}
+
+.logo{
+    width: 250px;
+    height: 70px;
+   
+}
+
+.reg-p-heah{
+    font-size: 30px;
+    margin-right: 50px;
+}
+
+.reg-first{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.reg-create-account{
+    display: flex;
+    position:absolute;
+    width: 80px;
+    font-size: 30px;
+    
+}
+
+.reg-second-main{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.reg-inputanco{
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+.reg-h1, .reg-h2, .reg-h3, .reg-h4, .reg-h5, .reg-h6, .reg-h7{
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.reg-place1, .reg-place2{
+    width: 320px;
+    height: 40px;
+    margin-right: 10px;
+    border: solid 1px #E0E0E0;
+    border-radius: 5px;
+}
+
+.reg-place3, .reg-place4, .reg-place5, .reg-place6, .reg-place7{
+    width: 650px;
+    height: 40px;
+    border: solid 1px #E0E0E0;
+    border-radius: 5px;
+}
+
+.reg-button-r{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.reg-main-botton{
+    height: 52px;
+    width: 650px;
+    font-size: 20px;
+    margin-right: 350px;
+    top: 529px;
+    border-radius: 10px;
+    color: white;
+    background-color: #1178FF;
+    border-style: none;
+    }
+
+.reg-bala-blu{
+    width: 100%;  
+    justify-content: space-between;
+}
+
+.reg-blue, img{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 100px;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 50px;
+}
+
+
+   
+    
+    
+
+    @media screen and (max-width : 800px) {
+
+        .register-home{
+            width: 100%;
+            margin-top: 50px;
+            min-height: 100vh;
+             
+        }
+         
+        
+        .rigister-main{
+            width: 100%;
+            height: 700px;
+        }
+        
+        .login-head{
+            margin-top: 50px;
+        }
+        
+        .login-head p{
+            font-size: 20px;
+        }
+        
+        .login-link{
+            color: blue;
+        }
+        
+        .logo{
+            width: 200px;
+            height: 50px;
+            margin-bottom: 20px;
+           
+        }
+        
+        .reg-p-heah{
+            font-size: 20px;
+            margin-right: 50px;
+        }
+        
+        .reg-first{
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+        
+        .reg-create-account{
+            display: flex;
+            flex-direction: row;
+            position:relative;
+            width: 30px;
+            font-size: 20px;
+            
+        }
+        
+        .reg-second-main{
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 10px;
+            
+        }
+        
+        .reg-inputanco{
+            width: 100%;
+            display: flex;
+            align-items: center; 
+            justify-content: center;
+            margin-left: 30px;
+        }
+        
+        .reg-h1, .reg-h2, .reg-h3, .reg-h4, .reg-h5, .reg-h6, .reg-h7{
+            font-size: 25px;
+            padding-bottom: 10px;
+            padding-top: 30px;
+        }
+        
+        .reg-place1, .reg-place2{
+            width: 250px;
+            height: 40px;
+            margin-right: px;
+            border: solid 1px #E0E0E0;
+            border-style:ridge;
+        }
+        
+        .reg-place3, .reg-place4, .reg-place5, .reg-place6, .reg-place7{
+            width: 600px;
+            height: 40px;
+            border: solid 1px #E0E0E0;
+            border-style:ridge;
+        }
+        
+        .reg-button-r{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-top: 50px;
+            
+        }
+        
+        .reg-main-botton{
+            height: 52px;
+            width: 1000px;
+            font-size: 18px;
+            border-radius: 4px;
+            color: white;
+            background-color: #1178FF;
+            border-style: none;
+            }
+        
+        .reg-blue{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 10px;
+           
+        }
+        
+        
+            .login-container {
+                min-height: 100vh;
+            }
+            
+            .login-head {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-top: 10px;
+            }
+
+        
+    }

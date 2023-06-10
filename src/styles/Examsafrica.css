@@ -1,0 +1,970 @@
+
+@font-face {
+  font-family: 'Clash Display Variable';
+  src: url("./ClashDisplay-Variable.ttf");
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+
+
+
+
+.exams-home{
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.section-1{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;margin-left: 100px;
+    
+
+}
+
+.practice-holder{
+    display: flex;
+    }
+
+.prepare-holder{
+  display: flex;  
+    }
+.practice-image{
+  width: 180px;
+  height: 180px;
+  margin-left:70px;
+    }
+
+.prepare-image{
+  width: 180px;
+  height: 180px;
+  margin-left: 12px;
+  margin-top: 15px;
+  margin-bottom: 5.12%;
+        
+    }
+
+.practice{
+  Width: 500px;
+  Left: 160px;
+  display: flex;
+  font-size: 120px;
+  font-weight: 2000;
+  font-family: 'Clash Display Variable';
+  margin-right: 50px;
+  color: #002099;
+   }
+
+.prepare{
+  Width: 448px;
+  Height: 140px;
+  margin-Top: 10px;
+  font-weight: 2000;
+  margin-right: 200px;
+  display: flex;
+  font-family: 'Clash Display Variable';
+  font-size: 120px;
+  margin-right: 60px;
+  color: #002099;
+   }
+
+   .excel-container{
+    display: flex;
+   }
+
+   .excel{
+    display: flex;
+    height: 140px;
+    width: 291px;
+    margin-right: 50px;
+    top: 512px;
+    font-size: 108px;
+    font-weight: 2000;
+    line-height: 140%;
+    font-family: 'Clash Display Variable';
+    color: #002099;
+   }
+
+   .container-holder{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   }
+
+    .container-one{
+    width: 120px;
+    height: 70px;
+    font-size: 8px;
+    font-family: 'Nunito';
+    color: #676E82;
+    border: solid 1px #676E82; 
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+.container-two{
+    width: 120px;
+    height: 70px;
+    font-size: 8px;
+    font-family: 'Nunito';
+    color: #676E82;
+    border: solid 1px #676E82;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+.container-three{
+  width: 118px;
+  height: 70px;
+  font-size: 8px;
+  font-family: 'Nunito';
+  color: #676E82;
+  border: solid 1px #676E82;
+  border-radius: 15px;
+}
+
+.container-four{
+    width: 260px;
+    height: 70px;
+    font-size: 8px;
+    font-family: 'Nunito';
+    color: #676E82;
+    border: solid 1px #676E82;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 16px;
+}
+
+.container-five{
+    width: 120px;
+    height: 70px;
+    font-size: 8px;
+    font-family: 'Nunito';
+    color: #676E82;
+    border: solid 1px #676E82;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+   .big-image{
+    height: 850px;
+    width: 750px;
+    margin-left: 10px;
+    right: -56.54%;
+    top: 2.87%;
+    margin-bottom: 150px;
+    margin-left:100px;
+   }
+
+.welcome-toexam{
+font-family: 'Mulish';
+width: 900px;
+font-size: 10px;
+font-weight: 400;
+line-height: 32px;
+margin-top: 50px;
+}
+
+   .button-holder{
+    display: flex;
+    margin-top: 30px;
+   }
+
+   .get-started{
+    width: 170px;
+    height: 50px;
+    margin-right: 20px;
+    font-family: 'mulish';
+    border-radius: 5px;
+    background-color: #002099;
+    border: solid #1178FF 1px;
+    color: white;
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 20px;
+    border-style: none;
+   }
+
+   .start-practising{
+    width: 173px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 7px;
+    line-height: 20px;
+    font-family: 'mulish';
+    border-radius: 5px;
+    color: #1178FF;
+    border: solid #002099 1px;
+    
+   }
+   
+   
+   .e-blue-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 355px;
+    background-color:#002099;
+   }
+
+   .e-white-control{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 165px;
+    background-color: white;
+   }
+   .e-vector-mainc{
+    display: flex;
+    width: 100%;
+    height: 165px;
+   }
+    
+   .vect-1-control{
+      display: flex;
+      height: 165px;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;  
+   }
+
+   .vect1-img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 33px;
+    margin-right: 10px;
+   }
+
+   .e-vector-h1{
+    font-size: 20px;
+    color: #002099;
+    font-family: 'Clash Display Variable';
+    line-height:24.6px
+   }
+
+   .e-vector-p{
+    font-size: 15px;
+    font-size: 'mulish';
+   }
+
+   .e-vector-line{
+    border-right: solid #002099 3px;
+    height: 100px;
+    margin-left: 10px;
+   } 
+
+  
+    .no-reason{
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        font-size: 18px;
+        font-family: 'Clash Display Variable';
+      }
+
+      .catigory-owo{
+        display: flex;
+        margin-top: 100px;
+        padding-left: 15%;
+        padding-right: 15%;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .owo-para h1{
+        font-size: 50px;
+        margin-bottom: 20px;
+        font-family: 'mulish';
+      }
+      
+      .owo-para p{
+        width: 500px;
+        font-size: 20px;
+        text-align: justify;
+        font-family: 'mulish';
+      }
+      .owo-boder{
+        border-bottom: solid black 1px;
+        width: 70px;
+        margin-top: 30px;
+      }
+
+      
+      .platform{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        width: 100%;
+        height: 350px;
+        background-color: #002099;
+        margin-top: 200px
+      }
+          
+
+      .all-big-blu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #002099;
+        margin-top: 50px;
+        width: 100%;
+        min-height: 35vh;
+      }
+      
+
+      .big-blu-h1{
+        color: white;
+         margin-bottom: 30px; 
+         font-size: 20px;
+        font-family: 'Clash Display Variable' ;
+      }
+
+      .all-social{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 15vh;
+        background: #1D3797;
+        backdrop-filter: blur(15px);
+        border-radius: 24px;
+      }
+      .wold-img, .whatsapp-img, .telegram-img, .play-img, .apple-img{
+        height: 40px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+      }
+      .e-h1, .e-h2, .e-h3, .e-h4, .e-h5{
+        color: white;
+        font-size: 25px;
+        margin-right: 30px;
+      }
+
+      .e-a-1, .e-a-2, .e-a-3, .e-a-4, .e-a-5{
+        color: white;
+        
+      }
+
+      .e-last-sideline{
+        border-left: solid white 4px;
+        height: 100px;
+        
+      }
+      .e-last-sideline-1{
+        border-left: solid white 4px;
+        height: 100px;
+        margin-left: 15px;
+
+      }
+
+      .e-most{
+        display: flex;
+        min-height: 20vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+      }
+
+      .e-most-h1{
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 3em;
+        font-family: 'Clash Display Variable';
+      }
+
+      .e-most-p{
+        font-size: 20px;
+        font-weight: 600;
+        width: 800px;
+        font-family: 'mulish';
+        text-align: center;
+      }
+
+   .e-box-c1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    min-height: 25vh;
+    margin-top: 50px;
+   }
+
+   .e-box-c2{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    min-height: 20vh;
+    
+   }
+
+   .ebox-1{
+    width: 300px;
+    height: 150px;
+    line-height: 2.5em;
+    text-align:justify;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(11, 34, 57, 0.14);
+    border-radius: 4px;
+    margin-right: 20px;
+   }
+
+   .neco-h1{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-family: 'mulish';
+   }
+
+   .neco-p{
+    font-size: 20px;
+    margin-left: 15px;
+    font-family: 'mulish';
+   }
+
+   .neco-a{
+    margin-right: 40px;
+    margin-left: 15px;
+    font-family: 'mulish';
+    color: #0172DA;
+   }
+   .neco-a, .e-arrow{
+    text-decoration: none;
+    color: #0172DA;
+    
+   }
+
+   .e-use{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 30vh;
+    margin-top: 50px;
+   }
+
+   .e-use-main{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .e-use-h1{
+      font-size: 32px;
+      line-height: 39px;
+      text-align: center;
+      width: 500px;
+      color: #0B2239;
+      font-family: 'clash display variable';
+   }
+
+   .e-use-p{
+    font-size: 20px;
+    line-height: 3em;
+    color: rgba(28, 10, 0, 0.71);
+    
+   }
+
+   .e-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%px;
+    
+   }
+
+   .i-video{
+    width: 1000px;
+    height: 300px;
+    border: #1178FF solid 5px;
+   }
+
+
+@media screen and (max-width :800px) {
+  .exams-home{
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+
+
+  .section-1{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;margin-left: 100px;
+   
+
+}
+
+
+.practice-holder{
+  display: flex;
+  }
+
+.prepare-holder{
+display: flex;  
+  }
+.practice-image{
+width: 150px;
+height: 150px;
+margin-left:70px;
+  }
+
+.prepare-image{
+width: 150px;
+height: 150px;
+margin-left: 12px;
+margin-top: 15px;
+margin-bottom: 5.12%;
+      
+  }
+
+.practice{
+Width: 300px;
+Left: 160px;
+display: flex;
+font-size: 90px;
+font-weight: 2000;
+font-family: 'Clash Display Variable';
+margin-right: 50px;
+color: #002099;
+ }
+
+.prepare{
+Width: 300px;
+Height: 140px;
+margin-Top: 10px;
+font-weight: 2000;
+margin-right: 200px;
+display: flex;
+font-family: 'Clash Display Variable';
+font-size: 90px;
+margin-right: 60px;
+color: #002099;
+ }
+
+ .excel-container{
+  display: flex;
+ }
+
+ .excel{
+  display: flex;
+  height: 140px;
+  width: 291px;
+  margin-right: 50px;
+  top: 512px;
+  font-size: 90px;
+  font-weight: 2000;
+  line-height: 140%;
+  font-family: 'Clash Display Variable';
+  color: #002099;
+  
+ }
+
+ .container-holder{
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-right: 100px;
+  margin-left: -px;
+  
+ }
+
+  .container-one{
+  width: 90px;
+  height: 70px;
+  font-size: 18px;
+  font-family: 'Nunito';
+  color: #676E82;
+  border: solid 1px #676E82; 
+  margin-right: 20px;
+  border-radius: 15px;
+}
+
+.container-two{
+  width: 90px;
+  height: 70px;
+  font-size: 18px;
+  font-family: 'Nunito';
+  color: #676E82;
+  border: solid 1px #676E82;
+  margin-right: 20px;
+  border-radius: 15px;
+}
+
+.container-three{
+width: 90px;
+height: 70px;
+font-size: 18px;
+font-family: 'Nunito';
+color: #676E82;
+border: solid 1px #676E82;
+border-radius: 15px;
+}
+
+.container-four{
+  width: 200px;
+  height: 90px;
+  font-size: 20px;
+  font-family: 'Nunito';
+  color: #676E82;
+  border: solid 1px #676E82;
+  margin-right: 20px;
+  margin-top: 20px;
+  border-radius: 16px;
+}
+
+.container-five{
+  width: 90px;
+  height: 70px;
+  font-size: 18px;
+  font-family: 'Nunito';
+  color: #676E82;
+  border: solid 1px #676E82;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+
+.welcome-toexam{
+  font-family: 'Mulish';
+  width: 600px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 50px;
+  }
+
+ .big-image{
+  height: 600px;
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom:20px;
+  margin-right: 400px;
+ }
+
+
+ .start-practising{
+  width: 170px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: 'mulish';
+  border-radius: 5px;
+  color: #1178FF;
+  font-size: 15px;
+  border: solid #002099 1px;
+ }
+ 
+ 
+ .e-blue-control{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+  height: 900px;
+  background-color:#002099;
+ }
+
+ .e-white-control{
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 800px;
+  background-color: white;
+ }
+ .e-vector-mainc{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 800px;
+  margin-right: 50px;
+  
+ }
+  
+ .vect-1-control{
+    display: flex;
+    height: 165px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;  
+ }
+
+ .vect1-img{
+  width: 20px;
+  height: 20px;
+  margin-bottom: 33px;
+  margin-right: 10px;
+ }
+
+ .e-vector-h1{
+  font-size: 20px;
+  color: #002099;
+  font-family: 'Clash Display Variable';
+  line-height:24.6px
+ }
+
+ .e-vector-p{
+  font-size: 15px;
+  font-size: 'mulish';
+ }
+
+ .e-vector-line, .e-vector-p, .p{
+  border-bottom: solid #002099 3px;
+  border-style: none;
+  border-bottom: #002099 solid 3px ;
+  margin-top: 10px;
+ } 
+
+
+ .catigory-owo{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  padding-left: 15%;
+  padding-right: 15%;
+  justify-content: space-between;
+  align-items: center;
+}
+.owo-para h1{
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-family: 'mulish';
+}
+
+.owo-para p{
+  width: 500px;
+  font-size: 20px;
+  text-align: justify;
+  font-family: 'mulish';
+}
+.owo-boder{
+  border-bottom: solid black 1px;
+  width: 70px;
+  margin-top: 30px;
+}
+
+
+.platform{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  background-color: #002099;
+  margin-top: 200px
+}
+    
+
+.all-big-blu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #002099;
+  margin-top: 50px;
+  width: 100%;
+  min-height: 1100px;
+}
+
+
+.big-blu-h1{
+  color: white;
+   margin-bottom: 10px; 
+   font-size: 17px;
+  font-family: 'Clash Display Variable' ;
+}
+
+.all-social{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 900px;
+  background: #1D3797;
+  backdrop-filter: blur(15px);
+  border-radius: 24px;
+}
+.wold-img, .whatsapp-img, .telegram-img, .play-img, .apple-img{
+  height: 40px;
+  margin-right: 130px;
+  margin-bottom: 30px;
+}
+.e-h1, .e-h2, .e-h3, .e-h4, .e-h5{
+  color: white;
+  font-size: 25px;
+  margin-right: 30px;
+}
+
+.e-a-1, .e-a-2, .e-a-3, .e-a-4, .e-a-5{
+  color: white;
+  
+  
+}
+
+.e-last-sideline{
+  display: flex;
+  border-style: none;
+  border-bottom: solid white 4px;
+  height: 100px;
+  
+}
+.e-last-sideline-1{
+  border-left: solid white 4px;
+  height: 100px;
+  border-style: none;
+  margin-left: 15px;
+
+}
+
+
+.e-most{
+  display: flex;
+  min-height: 20vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.e-most-h1{
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 3em;
+  font-family: 'Clash Display Variable';
+}
+
+.e-most-p{
+  font-size: 18px;
+  font-weight: 600;
+  width: 500px;
+  font-family: 'mulish';
+  text-align: center;
+}
+
+.e-box-c1{
+display: flex;
+flex-wrap: wrap;
+justify-content:center;
+align-items: center;
+width: 100%;
+min-height: 25vh;
+margin-top: 50px;
+}
+
+.e-box-c2{
+display: flex;
+justify-content: center;
+width: 90%;
+min-height: 30vh;
+
+}
+
+.ebox-1{
+width: 300px;
+height: 200px;
+line-height: 2.5em;
+text-align:justify;
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(11, 34, 57, 0.14);
+border-radius: 4px;
+margin-right: 20px;
+}
+
+.neco-h1{
+font-size: 14px;
+margin-top: 10px;
+margin-left: 15px;
+font-family: 'mulish';
+}
+
+.neco-p{
+font-size: 15px;
+margin-left: 15px;
+font-family: 'mulish';
+}
+
+.neco-a{
+margin-right: 10px;
+margin-left: 5px;
+font-family: 'mulish';
+color: #0172DA;
+}
+.neco-a, .e-arrow{
+text-decoration: none;
+color: #0172DA;
+
+}
+
+.e-use{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+min-height: 20vh;
+margin-top: 30px;
+}
+
+.e-use-main{
+display: flex;
+width: 80%;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.e-use-h1{
+font-size: 25px;
+line-height: 39px;
+text-align: center;
+width: 500px;
+color: #0B2239;
+font-family: 'clash display variable';
+}
+
+.e-use-p{
+font-size: 20px;
+line-height: 1.5em;
+color: rgba(28, 10, 0, 0.71);
+text-align: center;
+
+}
+
+.e-video{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%px;
+
+}
+
+.i-video{
+width: 1000px;
+height: 300px;
+border: #1178FF solid 5px;
+}
+
+
+}

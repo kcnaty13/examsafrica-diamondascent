@@ -1,0 +1,329 @@
+@font-face {
+    font-family: 'Clash Display Variable';
+    src: url("./ClashDisplay-Variable.ttf");
+  }
+  
+  
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+  
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.blog-home{
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.blog-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-blue-box{
+    display: flex;
+    width: 90%;
+    height: 400px;
+    background-color: #002099; 
+}
+
+.blog-para{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    }
+
+    .blog-firt-para{
+        font-size: 30px;
+    }
+
+    .blog-second-para{
+        font-size: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .blog-third-para{
+        font-size: 20px;
+        width: 900px;
+        font-family: 'mulish';
+    }
+
+
+.blog-book-cover{
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        align-items: center;
+        margin: 50px;
+        
+    }
+
+    /* .blog-main-c{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .blog-main-img{
+        width: 90%;
+    }
+    
+    .exam-para{
+        font-size: 25px;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+
+    .revision-para{
+        font-size: 18px;
+        width: 500px;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+
+    .article-button{
+        width: 200px;
+        height: 45px;
+        font-size: 20px;
+        margin-top: 20px;
+        background-color: #002099;
+        color: white;
+        border-radius: 5px;
+        border-style: none;
+        margin-left: 100px;
+    }
+    .black-home{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 50px;
+        
+        }
+
+    .main-black{
+        width: 100%;
+        height: 550px;
+        background-color: black;
+    }
+
+    .black-para-control{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        margin-top: 50px;
+    }
+
+    .black-para-control h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .black-para-control p{
+        font-size: 18px;
+       
+    }
+
+    .black-2-para{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .black-2-para p{
+        width: 800px;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .black-twit{
+        margin-top: 50px;
+        margin-bottom: 35px;
+    }
+
+    .last-blue{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        background-color: #002099;
+    }
+
+    .last-blue h1{
+        width: 80%;
+        height: 20px;
+        color: white;
+    }
+
+
+    @media screen and (max-width :800px) {
+        
+
+        
+.blog-home{
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.blog-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-blue-box{
+    display: flex;
+    width: 90%;
+    height: 300px;
+    background-color: #002099; 
+}
+
+.blog-para{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    }
+
+    .blog-firt-para{
+        font-size: 30px;
+    }
+
+    .blog-second-para{
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .blog-third-para{
+        font-size: 20px;
+        width: 500px;
+        font-family: 'mulish';
+    }
+
+
+.blog-book-cover{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: space-between;
+        align-items: center;
+        margin: 50px;
+        
+    }
+
+    /* .blog-main-c{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .blog-main-img{
+        width: 90%;
+    }
+    
+    .exam-para{
+        font-size: 25px;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+
+    .revision-para{
+        font-size: 18px;
+        width: 500px;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+
+    .article-button{
+        width: 200px;
+        height: 45px;
+        font-size: 20px;
+        margin-top: 20px;
+        background-color: #002099;
+        color: white;
+        border-radius: 5px;
+        border-style: none;
+        margin-left: 100px;
+    }
+    .black-home{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 50px;
+        
+        }
+
+    .main-black{
+        width: 100%;
+        height: 550px;
+        background-color: black;
+    }
+
+    .black-para-control{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        margin-top: 50px;
+    }
+
+    .black-para-control h1{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .black-para-control p{
+        font-size: 16px;
+       
+    }
+
+    .black-2-para{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .black-2-para p{
+        width: 600px;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .black-twit{
+        margin-top: 50px;
+        margin-bottom: 35px;
+    }
+
+    .last-blue{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        background-color: #002099;
+    }
+
+    .last-blue h1{
+        width: 80%;
+        height: 20px;
+        color: white;
+    }
+
+    }

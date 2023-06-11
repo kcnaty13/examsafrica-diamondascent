@@ -29,8 +29,8 @@
 }
 
 .log-create-account{
-    width: 300px;
-    font-size: 30px;
+    width: 200px;
+    font-size: 20px;
     margin-left: 50px;
 }
 
@@ -40,11 +40,13 @@
     width: 90%;
     align-items: center;
     min-height: 70vh;
-    font-size: 50px; 
+    font-size: 20px; 
+   
     
 }
 .reg-create-account{
     margin-left: 50px;
+    
 }
 
 .log-main{
@@ -52,23 +54,24 @@
     flex-direction: column;
    justify-content: center;
    align-items: center;
-    justify-content: center;
+    
 }
 
 .log-reg-h3, .log-reg-h4{
-    font-size: 20px;
+    font-size: 17px;
     margin-bottom: 10px;
-    margin-right: 160px;
+    margin-right: 0px;
 }
 .log-reg-h4{
-    margin-top: 20px;
-    margin-right: 330px;
+    margin-top: 10px;
+    margin-right: 0px;
+    text-align:start;
 }
 
 .log-place3, .log-place4{
-    width: 500px;
-    height: 50px;
-    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
 }
 
 .login-button-r{
@@ -76,18 +79,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-   
-    
+    margin-top: 20px;
 
 }
 
 .login-m-botton{
-    height: 52px;
-    width: 500px;
+    height: 30px;
+    width: 200px;
     font-size: 20px;
-    
-    margin-top: 20px;
+    margin-top: 5px;
     border-radius: 10px;
     color: white;
     background-color: #1178FF;
@@ -98,24 +98,24 @@
     .log-l-r{
         width: 1000px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
-        margin-top: 50px;
+        margin-top: 10px;
         
     }
 
     .left {
-        margin-right: 200px;
-        margin-top: 30px;
+        margin-right: 100px;
+        margin-top: 10px;
     }
 
 .right{
-    margin-left: 180px;
-    margin-top: 30px;
+    margin-left: 100px;
+    margin-top: 10px;
 }
 
 
-@media screen and (max-width : 800px) {
+@media screen and (max-width :500px) {
 
     
 .login-main{

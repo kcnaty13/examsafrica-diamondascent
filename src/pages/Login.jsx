@@ -16,7 +16,7 @@ const Login=()=>{
                 </div>
             
              <nav className='log-create-account'>
-                    <h1>Create An Account</h1>
+                    <h1>login To Account</h1>
                     </nav>
             
                 <div className='log-inputanco'>

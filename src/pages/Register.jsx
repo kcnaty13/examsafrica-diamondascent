@@ -44,9 +44,9 @@ const Register=()=>{
                 <button className='reg-main-botton'>Register Now</button>
             </nav>
         <div className='reg-bala-blu'>
-        <nav className='reg-blue'>
-            <img src={left} alt="" /> <img src={right} alt="" />
-            </nav>
+            <div className='reg-blue'>
+            <img className='blu-img' src={left} alt="" /> <img src={right} alt="" />
+            </div>
         </div>
             
     </nav>

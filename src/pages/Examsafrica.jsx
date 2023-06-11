@@ -61,8 +61,9 @@ const Examsafrica=()=>{
                 <div></div>
 
             <section className='e-blue-control'>
-                <div className='e-white-control'>
+            <div className='e-white-control'>
                 <div className='e-vector-mainc'>
+                    <div className='e-vector-mainc2'>
                     <div className='vect-1-control'>
                         <div><img className='vect1-img' src={vect1} alt="" /></div> 
                         <div>
@@ -100,8 +101,9 @@ const Examsafrica=()=>{
                         <p className='e-vector-p'>Low cost on in-app purchases</p>
                         </div>
                     </div>
-                </div>   
-                </div>            
+                </div> 
+                </div>  
+            </div>            
             </section>   
                         
             <div className='no-reason'>
@@ -161,18 +163,32 @@ const Examsafrica=()=>{
                     <h1>Available on this Plartform</h1>
                 </div>
                 <div className='all-social'>
-                <img className='wold-img' src={web} alt="" /> <div className='e-d-1'>  <h1 className='e-h1'>Web</h1> <a className='e-a-1' href="#">Download Now</a></div> <div className='e-d-1'></div>
-                <div className='e-last-sideline-1'></div>
-                <img className='apple-img' src={apple} alt="" /><div className='e-d-2'><h1 className='e-h2'>App Store</h1> <a className='e-a-2' href="">Download Now</a></div> <div className='e-d-2'></div>
-                <div className='e-last-sideline'></div>
-                <img className='play-img' src={play} alt="" /><div className='e-d-3'><h1 className='e-h3'>Play Store</h1><a className='e-a-3' href="#">Download Now</a></div><div className='e-d-3'></div>
-                <div className='e-last-sideline'></div>
-                <img className='telegram-img' src={telegram} alt="" /> <div className='e-d-4'><h1 className='e-h4'>Telegram</h1><a className='e-a-4' href="#">Download Now</a></div> <div className='e-d-4'></div>
-                <div className='e-last-sideline'></div>
-                <img className='whatsapp-img' src={whatsapp} alt=""/><div className='e-d-5'><h1 className='e-h5'>Whatsapp</h1><a className='e-a-5' href="#">Download Now</a></div>
-                
+                <div className='e-social-control-main'>
+                    <div className='e-social-div'>
+                    <img className='wold-img' src={web} alt="" /> <div className='e-d-1'>  <h1 className='e-h1'>Web</h1> <a className='e-a-1' href="#">Download Now</a></div> <div className='e-d-1'></div>
+                    </div>
+                    <div className='e-last-sideline-1'></div>
+                    
+                    <div className='e-social-div'>
+                    <img className='apple-img' src={apple} alt="" /><div className='e-d-2'><h1 className='e-h2'>App Store</h1> <a className='e-a-2' href="">Download Now</a></div> <div className='e-d-2'></div>
+                    </div>
+                    <div className='e-last-sideline'></div>
+                    
+                    <div className='e-social-div'>
+                    <img className='play-img' src={play} alt="" /><div className='e-d-3'><h1 className='e-h3'>Play Store</h1><a className='e-a-3' href="#">Download Now</a></div><div className='e-d-3'></div>
+                    </div>
+                    <div className='e-last-sideline'></div>
+                    
+                    <div className='e-social-div'>
+                    <img className='telegram-img' src={telegram} alt="" /> <div className='e-d-4'><h1 className='e-h4'>Telegram</h1><a className='e-a-4' href="#">Download Now</a></div> <div className='e-d-4'></div>
+                    </div>
+                    <div className='e-last-sideline'></div>
+                    
+                    <div className='e-social-div'>
+                    <img className='whatsapp-img' src={whatsapp} alt=""/><div className='e-d-5'><h1 className='e-h5'>Whatsapp</h1><a className='e-a-5' href="#">Download Now</a></div>
+                    </div>
                 </div>
-                
+                </div>
            </div>
 
            <div className='e-most'>

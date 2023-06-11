@@ -20,8 +20,8 @@
 
 .faq-control{
     display: flex;
-    width: 80%;
-    height: 400px;
+    width: 90%;
+    height: 300px;
     background-color: #002099;
 }
 
@@ -29,17 +29,16 @@
     justify-content: center;
     align-items: center;
     width: 60%;
-    height: 200px;
-    margin: 120px;
+    margin: 100px;
     color: white;
 }
 
 .firt-para, .third-para{
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .second-para{
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .faq-second-section{
@@ -52,7 +51,7 @@
 
 .button-contro{
     display: flex;
-    width: 90%;
+    width: 85%;
     height: 60px;
     justify-content: space-around;
     
@@ -98,7 +97,7 @@
 
 .main-text{
 font-weight:  600;
-font-Size: 30px;
+font-Size: 25px;
 Line-height: 70px;
 text-align: Center;
 align-items: center;
@@ -116,58 +115,64 @@ align-items: center;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 90vh; 
-    
+    height: 90vh;
+    margin-top: 50px;     
 }
 
 .faq-main-book{
-    width: 90%;
+    width: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 100px;
       
 }
 
 .faq-m-control{
-    width: 90%;
-    margin-left: 100px;
+    width: 80%; 
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 30px;
+   
 }
 
 .faq-prevs-2{
-    width: 90%;
+    width: 100%;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 .faq-middle-img{
-    width: 700px;
-    height: 400px;
+    width: 500px;
+    height: 300px;
+    
+
 }
 
 .faq-middle-h1{
-    margin-top: 50px;
-    width: 700px;
-    font-size: 25px;
+    margin-top: 5px;
+    width: 500px;
+    font-size: 20px;
+    
     
 }
 
 .faq-span{
-    width: 50px;
-    width: 300px;
-    margin-left: 250px;  
+    font-size: 18px;
+    width: 220px;
+    margin-left: 180px;   
 }
 
 .faq-p-revs{
-    font-size: 25px;
-    width: 700px;
-    margin-top: 50px;
+    font-size: 20px;
+    width: 530px;
+    margin-top: 20px;
 }
 .faq-button-revs{
-    width:300px;
+    width:250px;
     height: 55px;
-    font-size: 25px;
+    font-size: 20px;
     border-style: none;
     border-radius: 8px;
     background-color: #1178FF;
@@ -175,7 +180,7 @@ align-items: center;
     color: #ffff;
     padding-left: 20px;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .faq-last-sec{
@@ -242,6 +247,7 @@ align-items: center;
     width: 80%;
     height: 20px;
     color: white;
+    font-size: 18px;
 }
 
 

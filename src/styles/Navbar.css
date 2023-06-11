@@ -7,19 +7,21 @@
     min-height: 10vh;
     
     
+    
 }
 
 .main-nav{
     display: flex;
-    width: 100%;
+    width: 90%;
     justify-content: space-between;
     align-items: center;  
-   
+    
 }
 
 .image-navbar{
     width: 200px;
     height: 50px;
+    
 }
 
 .nav-link, .new-nav {
@@ -27,14 +29,15 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-right: 100px;
+    margin-right: 50px;
+   
 }
 
 
 .register-button {
-    width: 109px;
-    height: 44px;
-    font-Size: 16px;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
     Line-height: 20.08px;
     margin-right: 20px;
     text-decoration: none;
@@ -46,9 +49,9 @@
 }
 
 .login-button{
-    width: 109px;
-    height: 44px;
-    font-size: 16px;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
     line-height: 20.08px;
     margin-right: 20px;
     text-decoration: none;
@@ -69,7 +72,7 @@
     
 }
 .link-div a{
-    font-size: 16px;
+    font-size: 12px;
     color: black;
     text-decoration: none;
 }

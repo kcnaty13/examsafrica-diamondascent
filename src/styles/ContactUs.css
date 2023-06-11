@@ -13,7 +13,7 @@
 .contact-blue-box{
     display: flex;
     width: 90%;
-    height: 500px;
+    height: 300px;
     background-color: #002099; 
 }
 
@@ -40,16 +40,16 @@
 
 
     .contact-first-para{
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .contact-second-para{
-        font-size: 50px;
+        font-size: 25px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
     .contact-third-para{
-        font-size: 30px;
+        font-size: 20px;
         width: 900px;
     }
 
@@ -66,12 +66,12 @@
 
 
     .c-h1{
-        font-size: 30px;
+        font-size: 25px;
         margin-bottom: 20px;
     }
     .c-p1{
-    font-size: 20px;
-    width: 480px;
+    font-size: 17px;
+    width: 400px;
     }
 
 
@@ -85,6 +85,7 @@
     
     .p-head-a{
         width: 200px;
+       
     }
 
     .contact-direction{
@@ -98,35 +99,33 @@
     }
     .direction{
         margin-left: 5px;
-        height: 25px;
+        height: 20px;
+        
                
     }
 
     .c-g-dd{
-        margin-right: 30px;
+        font-size: 15px;
         margin-top: 15px;
         margin-right: 100px;
         color: blue;
     }
 
     .contact-pp{
-        font-size: 20px;
+        font-size: 17px;
         margin-top: 10px;
+        
     }
-
-
-
-
-
 
 
     .contact-sec-2{
         display: flex;
-        width: 100%;
+        width: 90%;
         height: 500px;
         justify-content: center;
         align-items: center;
         margin-top: 50px;
+       
         
     }
 
@@ -134,30 +133,33 @@
         border-left: #002099 solid 5px;
         margin-top: 20px;
         height: 300px;
+        
     }
     
     .f-i-l{
         display: flex;
         justify-content: flex-start;
-        font-size: 10px;
+        font-size: 3px;
+        
     }
 
     .c-facebook{
-        margin-left: 3px; 
+        margin-left: 0px; 
     }
 
     .c-instagram{
-        padding-right: 10px;
+        padding-right: 0px;
         
     }
 
 
     .c-input-anco{
         display: flex;
+        
     }
 
     .c-nameh1-imp{
-        width: 400px;
+        width: 200px;
         font-size: 20px;
     }
     .c-nameh1-imp, .c-emailh1-imp, .c-emailh1-imp, .c-subjecth1, .c-helph1{
@@ -168,8 +170,9 @@
     .c-im-1, .c-im-2, .c-im-3, .c-im-4{
         border-style: none;
         padding-bottom: 20px;
+        color: #ffffff;
         border-bottom: #DDDDDD 1px solid;
-        width: 500px;
+        width: 250px;
         font-size: 20px;
         margin-top: 20px;
     }
@@ -179,15 +182,15 @@
     }
 
     .c-im-3{
-        width: 1000px;
+        width: 500px;
     }
 
     .c-im-4{
-        width: 1000px
+        width: 500px
     }
 
     .c-button-c .c-button-main{
-        margin-top: 100px;
+        margin-top: 50px;
         width: 170px;
         height: 45px;
         border-style: none;
@@ -206,7 +209,7 @@
 
     .c-main-black{
         display: flex;
-        width: 80%;
+        width: 90%;
         height: 250px;
         color: #ffff;
         margin-bottom: 50px;
@@ -218,14 +221,14 @@
     .c-blak-h1{
         margin-bottom: 30px;
         font-size: 30px;
-        width: 700px;
+        width: 500px;
         padding-right: 120px;
         font-weight: 600;
          
     }
 
     .c-black-p{
-        width: 1300px;
+        width: 1000px;
         font-size: 18px;
         padding-right: 60px;
         font-weight: 600;
